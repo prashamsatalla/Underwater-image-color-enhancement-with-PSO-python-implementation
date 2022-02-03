@@ -39,4 +39,4 @@ for i in range(4):
 
 fig.tight_layout()
 plt.savefig("./results/output.jpg")
-plt.show()
+# plt.show()
