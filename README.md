@@ -9,9 +9,27 @@ Implemented the research paper, [Natural-based underwater image color enhancemen
 
 **Image credits**: [paper](http://umpir.ump.edu.my/id/eprint/26347/) <br />
 ![](https://github.com/prashamsatalla/Underwater-image-color-enhancement-with-PSO-python-implementation/blob/main/NUCE_flowchart.png)
+
+## User Guide
+- Clone this repository
+```commandline
+$ git clone https://github.com/prashamsatalla/Underwater-image-color-enhancement-with-PSO-python-implementation.git
+$ cd Underwater-image-color-enhancement-with-PSO-python-implementation
+```
+- Collect input images in **images** folder, then the enhanced output image will be saved in **results** folder with respective input image name.
+- Install required packages 
+```commandline
+$ pip install -r requirements.txt
+```
+- Run main.py .
+```commandline
+$ python main.py
+```
+
 ### Code Result:
 ![](https://github.com/prashamsatalla/Underwater-image-color-enhancement-with-PSO-python-implementation/blob/main/results/output.jpg)
-## Requirements
+
+## Dependencies
 - OpenCV 3.4.8
 - NumPy
 - Matplotlib
